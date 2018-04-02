@@ -3,7 +3,7 @@ This is a local android manifest repository. It is supposed to be used with andr
 # Usage
 ```
 repo init -u https://android.googlesource.com/platform/manifest -b master
-git clone https://github.com/96boards-hikey/android-manifest.git -b hikey970_v1.0 .repo/local_manifests
+git clone https://github.com/96boards-hikey/android-manifest.git -b hikey970_v1.0-rebase-0402 .repo/local_manifests
 repo sync
 ```
 

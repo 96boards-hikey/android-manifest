@@ -7,7 +7,7 @@
   <remove-project path="device/linaro/hikey" name="device/linaro/hikey" />
   <remove-project path="device/linaro/hikey-kernel" name="device/linaro/hikey-kernel" />
 
-  <project path="device/linaro/hikey" name="aosp-device-linaro-hikey" revision="hikey970_v1.0" remote="github" groups="default" />
-  <project path="device/linaro/hikey-kernel" name="aosp-device-linaro-hikey-kernel" revision="hikey970_v1.0" remote="github" groups="default" />
+  <project path="device/linaro/hikey" name="aosp-device-linaro-hikey" revision="hikey970_v1.0-rebase-0402" remote="github" groups="default" />
+  <project path="device/linaro/hikey-kernel" name="aosp-device-linaro-hikey-kernel" revision="hikey970_v1.0-rebase-0402" remote="github" groups="default" />
 
 </manifest>
