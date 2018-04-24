@@ -7,7 +7,16 @@
   <remove-project path="device/linaro/hikey" name="device/linaro/hikey" />
   <remove-project path="device/linaro/hikey-kernel" name="device/linaro/hikey-kernel" />
 
+  <remove-project path="device/linaro/bootloader/arm-trusted-firmware" name="device/linaro/bootloader/arm-trusted-firmware" />
+  <remove-project path="device/linaro/bootloader/edk2" name="device/linaro/bootloader/edk2" />
+  <remove-project path="device/linaro/bootloader/OpenPlatformPkg" name="device/linaro/bootloader/OpenPlatformPkg" />
+
   <project path="device/linaro/hikey" name="aosp-device-linaro-hikey" revision="hikey970_v1.0" remote="github" groups="default" />
   <project path="device/linaro/hikey-kernel" name="aosp-device-linaro-hikey-kernel" revision="hikey970_v1.0" remote="github" groups="default" />
 
+  <project path="device/linaro/bootloader/arm-trusted-firmware" name="arm-trusted-firmware" revision="hikey970_v1.0" remote="github" groups="default" />
+  <project path="device/linaro/bootloader/edk2" name="edk2" revision="hikey970_v1.0" remote="github" groups="default" />
+  <project path="device/linaro/bootloader/OpenPlatformPkg" name="OpenPlatformPkg" revision="hikey970_v1.0" remote="github" groups="default" />
+
+  <project path="kernel/hikey-linaro" name="linux" revision="hikey970-v4.9" remote="github" groups="default" />
 </manifest>
