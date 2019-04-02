@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Repositories -->
-  <remote name="github" fetch="http://github.com/96boards-hikey" />
+  <remote name="github" fetch="https://github.com/96boards-hikey" />
 
   <!-- HIKEY970 specific components -->
   <remove-project path="device/linaro/hikey" name="device/linaro/hikey" />
