@@ -2,7 +2,7 @@ This is a local android manifest repository. It is supposed to be used with andr
 
 # Usage
 ```
-repo init -u https://android.googlesource.com/platform/manifest -b master
+repo init -u https://android.googlesource.com/platform/manifest -b android-9.0.0_r8 --no-repo-verify --repo-branch=stable
 git clone https://github.com/96boards-hikey/android-manifest.git -b hikey970_v1.0 .repo/local_manifests
 repo sync
 ```
